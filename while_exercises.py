@@ -6,7 +6,7 @@ def print_squares_upto_limit(limit):
         print (i*i,end=" ")
         i = i + 1
 
-# print_squares_upto_limit(30)
+print_squares_upto_limit(30)
 
 
 # print cube upto limit

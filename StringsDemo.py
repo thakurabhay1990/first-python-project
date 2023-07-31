@@ -23,3 +23,8 @@ str4 = "  great  "
 print(str4.strip()) # The white spaces will be removed from str4 from both left and right.
 print(str4.lstrip()) # The white spaces will be removed from str4 from left side.
 print(str4.rstrip()) # The white spaces will be removed from str4 from right side.
+
+
+childWindowText = "Please email us at mentor@rahulshettyacademy.com with below template to receive response"
+grabEmailID = childWindowText.split("at")[1].strip().split(" ")[0]
+print(grabEmailID) # O/P : mentor@rahulshettyacademy.com

@@ -4,7 +4,7 @@ class Circle:
 
     def __init__(self, radius=10):
         self.radius = radius
-        self.area= Circle.pi * radius * radius
+        self.area = Circle.pi * radius * radius
 
     # Circumference = 2*pie*r
     def circumference(self):
@@ -13,9 +13,10 @@ class Circle:
         circum = 2 * Circle.pi * self.radius
         return circum
 
+
 circle_1 = Circle()
 print(f"The circumference of the circle is: {circle_1.circumference()}")
 print(f"The area of circle is : {circle_1.area}")
 
-circle_2= Circle(20)
+circle_2 = Circle(20)
 print(f"The circumference of the circle is: {circle_2.circumference()}")
